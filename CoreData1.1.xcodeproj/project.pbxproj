@@ -14,6 +14,8 @@
 		00ED64A3287142080006ECD2 /* CoreData1_1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00ED64A1287142080006ECD2 /* CoreData1_1.xcdatamodeld */; };
 		00ED64A52871420F0006ECD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00ED64A42871420F0006ECD2 /* Assets.xcassets */; };
 		00ED64A82871420F0006ECD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00ED64A62871420F0006ECD2 /* LaunchScreen.storyboard */; };
+		00ED64B0287143EA0006ECD2 /* Entities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ED64AF287143EA0006ECD2 /* Entities.swift */; };
+		00ED64B2287144CD0006ECD2 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ED64B1287144CD0006ECD2 /* CoreDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		00ED64A42871420F0006ECD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00ED64A72871420F0006ECD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00ED64A92871420F0006ECD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00ED64AF287143EA0006ECD2 /* Entities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entities.swift; sourceTree = "<group>"; };
+		00ED64B1287144CD0006ECD2 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				00ED64A62871420F0006ECD2 /* LaunchScreen.storyboard */,
 				00ED64A92871420F0006ECD2 /* Info.plist */,
 				00ED64A1287142080006ECD2 /* CoreData1_1.xcdatamodeld */,
+				00ED64AF287143EA0006ECD2 /* Entities.swift */,
+				00ED64B1287144CD0006ECD2 /* CoreDataManager.swift */,
 			);
 			path = CoreData1.1;
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00ED64B2287144CD0006ECD2 /* CoreDataManager.swift in Sources */,
+				00ED64B0287143EA0006ECD2 /* Entities.swift in Sources */,
 				00ED64A3287142080006ECD2 /* CoreData1_1.xcdatamodeld in Sources */,
 				00ED649D287142080006ECD2 /* ViewController.swift in Sources */,
 				00ED6499287142080006ECD2 /* AppDelegate.swift in Sources */,
